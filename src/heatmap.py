@@ -1,4 +1,10 @@
 #!/opt/local/bin/python2.7
+"""
+Heatmap visualization of correlation values between neural activation.
+
+Takes a pickled data file of a calcium trace and calculates the correlation
+coefficient. Then visualizes the correlation in an unclustered heatmap.  
+"""
 import matplotlib.pyplot as plt
 import numpy as np
 import pickle
