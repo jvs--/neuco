@@ -1,4 +1,9 @@
 #!/opt/local/bin/python2.7
+"""
+Takes a pickled file of neuron activations, calculates correlations between them
+and makes them into a graph in GML format to be opened with graph visualization 
+softwares like Gephi.  
+"""
 import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
